@@ -1,0 +1,40 @@
+body {
+    background-image: url(../Images/Fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: center;
+    padding: 200px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin: 1500px 0px;
+}
+
+
+a {
+    text-align: center;
+    width: 100px;
+    font: 30px Courier New;
+    font-weight: 450;
+    background-color: white;  
+    padding: 15px;
+    margin: 0px 100px;
+    color: black;
+    text-decoration: none;
+    border: 0px solid; 
+
+
+}
+
+a:hover {
+    background-color: #082903;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,67 @@
+body {
+    background-image: url(../Images/Textura1.jpg);   
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav.navbar {
+    background-color: #377E2F;
+}
+
+.nav-item {
+    font: 35px Impact;
+}
+
+h1 {
+    font: 50px Palatino Linotype;
+
+}
+
+.container p {
+    font: 16px Helvetica;
+}
+
+
+button {
+    margin-bottom: 5px;
+}
+    footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: #377E2F;
+    }  
+
+.socials{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 40px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.8rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: red;
+    background-color: none;
+}
+
